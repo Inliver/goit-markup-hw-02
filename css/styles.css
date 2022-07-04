@@ -67,7 +67,7 @@ header ul {
 .hero-index {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(44 / 60);
+  line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ header ul {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(16 / 30);
+  line-height: calc(30 / 16);
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -93,7 +93,7 @@ header ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(26 / 31);
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
@@ -112,7 +112,7 @@ header ul {
 .nav-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(14 / 16);
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--nav-item-color);
   text-decoration: none;
@@ -151,7 +151,7 @@ main section:not(:last-child) {
 
 .advantage h3 {
   font-size: 14px;
-  line-height: calc(14 / 16);
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -347,6 +347,6 @@ main section:not(:last-child) {
 .portfolio-item p {
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(13 / 16);
+  line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
